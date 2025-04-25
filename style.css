@@ -1,0 +1,137 @@
+
+body, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffc0cb;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+nav {
+    background-color: #008080;
+    padding: 10px 0;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #ffe4e1;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+ul {
+    list-style-type: square;
+    margin: 15px auto;
+    padding: 0;
+    max-width: 500px;
+    text-align: left;
+}
+
+.menu-list {
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px;
+    text-align: left;
+}
+
+.menu-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff0f5;
+    border-left: 5px solid #ffc0cb;
+}
+
+.gallery-grid {
+    display: grid;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background-color: #fff0f5;
+    padding: 15px;
+    border: 2px solid #ffc0cb;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    background-color: #ffe4e1;
+}
+
+.event {
+    background-color: #fff0f5;
+    border-left: 5px solid #ff69b4;
+    margin: 20px auto;
+    padding: 15px 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.event:hover {
+    background-color: #ffe4e1;
+}
+
+.event-note {
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+    color: #444;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
